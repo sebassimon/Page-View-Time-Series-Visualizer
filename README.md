@@ -20,7 +20,7 @@
 
 <h3>Box Plots for Distribution Analysis</h3>
 <pre><code>sns.boxplot(x='month', y='value', data=df_copy)</code></pre>
-<img src="https://miro.medium.com/max/720/1*V7c9z9CawePeWgnK9EtTcg.png" alt="Box Plot"/>
+<img src="https://raw.githubusercontent.com/sebassimon/Page-View-Time-Series-Visualizer/main/line_plot.png" alt="Box Plot"/>
 
 <h2>Conclusion</h2>
 <p>Through detailed visual analysis, we can better understand the forum's user engagement and identify key growth periods, helping to guide strategic planning.</p>
