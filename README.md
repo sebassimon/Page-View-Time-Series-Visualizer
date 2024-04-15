@@ -14,13 +14,9 @@
 
 <h2>Visualization Techniques</h2>
 
-<h3>Line Plot for Daily Page Views</h3>
-<pre><code>plt.plot(df_resampled.index, df_resampled['value'], color='red')</code></pre>
-<img src="https://miro.medium.com/max/720/1*KZCzE2fumsFpUkP-30E__A.png" alt="Line Plot"/>
-
 <h3>Bar Chart for Monthly Page Views</h3>
 <pre><code>df_grouped.plot(kind='bar')</code></pre>
-<img src="https://miro.medium.com/max/720/1*IrJb4T2IYq58ZycRmYMWoA.png" alt="Bar Chart"/>
+<img src="https://raw.githubusercontent.com/sebassimon/Page-View-Time-Series-Visualizer/main/bar_plot.png" alt="Bar Chart"/>
 
 <h3>Box Plots for Distribution Analysis</h3>
 <pre><code>sns.boxplot(x='month', y='value', data=df_copy)</code></pre>
